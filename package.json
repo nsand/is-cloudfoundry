@@ -1,0 +1,26 @@
+{
+  "name": "is-cloudfoundry",
+  "version": "0.0.1",
+  "description": "Determines if the environment is Cloud Foundry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsand/is-cloudfoundry.git"
+  },
+  "keywords": [
+    "is",
+    "environment",
+    "cloudfoundry",
+    "cf",
+    "bluemix"
+  ],
+  "author": "Nick Sandonato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsand/is-cloudfoundry/issues"
+  },
+  "homepage": "https://github.com/nsand/is-cloudfoundry#readme"
+}
