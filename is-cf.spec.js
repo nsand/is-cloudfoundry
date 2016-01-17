@@ -7,7 +7,6 @@ tape.test('should be a boolean', function (test) {
 });
 
 tape.test('should be false locally', function (test) {
-	process.env.VCAP_APPLICATION = {};
 	test.notOk(isCF);
 	test.end();
 });
