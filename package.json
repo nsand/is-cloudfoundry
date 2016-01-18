@@ -4,7 +4,9 @@
   "description": "Determines if the environment is Cloud Foundry",
   "main": "index.js",
   "scripts": {
-    "test": "tape *.spec.js | faucet"
+    "test": "tape *.spec.js | faucet",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
