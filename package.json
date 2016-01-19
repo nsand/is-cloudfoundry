@@ -1,6 +1,6 @@
 {
   "name": "is-cloudfoundry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Determines if the environment is Cloud Foundry",
   "main": "index.js",
   "scripts": {
